@@ -1,0 +1,87 @@
+.footer-container{
+    background: black;
+    max-height: 390px;
+    max-width: 1440px;
+
+    @media(max-width: 375px){
+        background-image: url('../../../assets//images/gif-cinema.png');
+        background-size: cover;
+        background-position-y: center;
+    }
+
+    .section-1{
+        align-items: center;
+        height: 386px;
+        max-height: 386px;
+        max-width: 831px;
+        padding-left: 20px;
+        width: 831px;
+
+        @media(max-width: 375px){
+            margin: 0 auto;
+        }
+
+        .stay-connected-container{
+            height: 220px;
+            width: 562px;
+            .stay-connected-text{
+                height: 138px;
+                margin-bottom: 70px;
+                width: 100%;
+                
+                p{
+                    font-family: Work Sans;
+                    line-height: 26px;
+                    color: #FFFFFF;
+    
+                    &.title{
+                        font-weight: 800;
+                        font-size: 40px;
+                    }
+    
+                    &.paragraph{
+                        font-weight: 300;
+                        font-size: 15px;
+                    }
+                }
+            }
+    
+            .stay-connected-form{
+                height: 36px;
+                width: 351px;
+    
+                form{
+                    input{
+                        background: none;
+                        border-bottom: 1px solid white;
+                        color: #FFFFFF;
+                        font-family: Work Sans;
+                        font-size: 15px;
+                        font-weight: 300;
+                        height: 36px;
+                        line-height: 26px;
+                        letter-spacing: 0em;
+                        margin-right: 10px;
+                        outline: none;
+                        text-align: left;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-2{
+        height: 390px;
+        max-width: 500px;
+
+        @media(max-width: 375px){
+            display: none;
+        }
+
+        .img{
+            width: 500px;
+        }
+    }
+    
+}

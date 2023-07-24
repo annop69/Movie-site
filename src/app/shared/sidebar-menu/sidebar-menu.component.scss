@@ -1,0 +1,24 @@
+.sidebar{
+    align-items: center;
+    background: black;
+    height: 100%;
+    max-width: 110px;
+    width: 110px;
+    
+    .logos{
+        height: 41px;
+        padding: 30px 0 30px 0;
+        width: 41px;
+    }
+
+    button{
+        &.btn-search{
+            background-color: transparent;
+            border: none;
+            bottom: 41px;
+            height: 41px;
+            position: relative;
+            width: 41px;
+        }
+    }
+}

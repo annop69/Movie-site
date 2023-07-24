@@ -1,0 +1,23 @@
+<div class="container">
+    <button class="home btn btn-dark" (click)="goHome()">Home</button>
+    <div class="video-details-container d-flex" *ngFor="let x of movieDetails">
+        <div class="img-container" *ngIf="x.primaryImage.url != undefined else defaultImage">
+            <img src={{x.primaryImage.url}} alt="Movie Image">
+        </div>
+        <ng-template #defaultImage>
+            <div class="img-container" #defaultImage>
+                <img src="../../../../assets/images/No-Image-Placeholder.png" alt="No Image">
+            </div>
+        </ng-template>
+        <div class="video-details">
+            <p class="title" *ngIf="x.titleText.text != undefined else emptyTitle">{{x.titleText.text}}</p>
+            <ng-template #emptyTitle>
+                <p class="title">No Title Available/p>
+            </ng-template>
+            <p *ngIf="x.titleText.text != undefined else emptyPlot">{{x.plot.plotText.plainText}}</p>
+            <ng-template #emptyPlot>
+                <p >No Description Available/p>
+            </ng-template>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    overflow-y: visible;
+    overflow-x: hidden;
+    height: 100%;
+
+    .home{
+        position: relative;
+        top: 30px;
+        left: 90%;
+    }
+
+    .video-details-container{
+        margin: 0 auto 10px auto;
+        max-height: 500px;
+            max-width: 500px;
+
+        .img-container{
+            max-height: 250px;
+            max-width: 250px;
+
+            img{
+                height: 250px;
+                width: 250px;
+            }
+        }
+
+        .video-details{
+            padding-left: 10px;
+
+            .title{
+                font-size: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,168 @@
+.video-list-container{
+    background: #232323;
+    height: 1974px;
+    max-height: 1974px;
+    max-width: 1331px;
+    width: 1331px;
+
+    .selected-film-container{   
+        background-size: cover;
+        height: 544px;
+        width: 1331px;
+
+        .btn-search{
+            left: 40%;
+            position: fixed;
+            top: 10vh;
+            width: 500px;
+
+            input{
+                background: none;
+                        background: black;
+                        color: #FFFFFF;
+                        font-family: Work Sans;
+                        font-size: 15px;
+                        font-weight: 300;
+                        height: 36px;
+                        line-height: 26px;
+                        letter-spacing: 0em;
+                        margin-right: 10px;
+                        outline: none;
+                        text-align: left;
+                        width: 100%;
+            }
+        }
+
+        .selected-film-details{
+            padding-left: 20px;
+            .title{
+                color: #FFFFFF;
+                font-family: 'Anton';
+                font-size: 61px;
+                font-weight: 400;
+                height: 120px;
+                width: 100%;
+            }
+
+            .info{
+                color: #747474;
+                font-family: Work Sans;
+                font-weight: 400;
+                font-size: 12px;
+                height: 24px;
+                line-height: 24px;
+                width: 224px;
+            }
+
+            .about{
+                color: #FFFFFF;
+                font-family: Work Sans;
+                font-weight: 300;
+                font-size: 15px;
+                height: 78px;
+                line-height: 26px;
+                width: 386px;
+            }
+
+            .credits{
+                color: #FFFFFF;
+                font-family: Work Sans;
+                font-weight: 400;
+                font-size: 12px;
+                height: 48px;
+                line-height: 24px;
+                width: 278px;
+            }
+
+            .btn-watch{
+                height: 43.36px;
+                width: 155.5px;
+
+                    img{
+                        left: 20px;
+                        top: 33px;
+                        height: 7.88px;
+                        position: relative;
+                        width: 9.09px;
+                    }
+
+                .btn-play{
+                    color: #FF4E4E;
+                    background: linear-gradient(0deg, #080808, #080808),
+                                linear-gradient(0deg, #FF4E4E, #FF4E4E);
+                    border: 0.9541445374488831px;
+                    border: 0.95px solid #FF4E4E;
+                    border-radius: 40.07406997680664px;
+                    height: 44px;
+                    width: 151px;
+                }
+            }
+        }
+    }
+
+    .recent-films{
+        margin: 0 auto;
+        max-height: 715px;
+        max-width: 1232px;
+        padding-top: 50px;
+
+        .recent-film-title{
+            height: 58px;
+            width: 1232px;
+
+            p{
+                color: #FFFFFF;
+                font-family: Work Sans;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .img-film{
+            width: 190px;
+            height: 280px;
+            margin: 0 10px 10px 0;
+
+            img{
+            width: 190px;
+            height: 280px;
+            }
+        }
+    }
+
+    .top-films{
+        margin: 0 auto;
+        max-height: 715px;
+        max-width: 1232px;
+        padding-top: 50px;
+
+        .top-film-title{
+            height: 58px;
+            width: 1232px;
+
+            p{
+                color: #FFFFFF;
+                font-family: Work Sans;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .top-film{
+            width: 190px;
+            height: 280px;
+            margin: 0 10px 10px 0;
+
+            img{
+                width: 190px;
+                height: 280px;
+            }
+        }
+    }
+}
